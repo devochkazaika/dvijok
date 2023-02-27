@@ -1,0 +1,12 @@
+/home/ilya/dvijok/tmp/CMakeFiles/main.dir
+/home/ilya/dvijok/tmp/CMakeFiles/edit_cache.dir
+/home/ilya/dvijok/tmp/CMakeFiles/rebuild_cache.dir
+/home/ilya/dvijok/tmp/lib/glfw/CMakeFiles/edit_cache.dir
+/home/ilya/dvijok/tmp/lib/glfw/CMakeFiles/rebuild_cache.dir
+/home/ilya/dvijok/tmp/lib/glfw/src/CMakeFiles/glfw.dir
+/home/ilya/dvijok/tmp/lib/glfw/src/CMakeFiles/update_mappings.dir
+/home/ilya/dvijok/tmp/lib/glfw/src/CMakeFiles/edit_cache.dir
+/home/ilya/dvijok/tmp/lib/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/ilya/dvijok/tmp/lib/glad/CMakeFiles/glad.dir
+/home/ilya/dvijok/tmp/lib/glad/CMakeFiles/edit_cache.dir
+/home/ilya/dvijok/tmp/lib/glad/CMakeFiles/rebuild_cache.dir
