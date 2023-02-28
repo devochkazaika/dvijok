@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ilya/dvijok/lib/glad/include
+C_INCLUDES = -I/home/ilya/newdv/dvijok/lib/glad/include
 
 C_FLAGS = 
 

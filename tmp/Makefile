@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilya/dvijok
+CMAKE_SOURCE_DIR = /home/ilya/newdv/dvijok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilya/dvijok/tmp
+CMAKE_BINARY_DIR = /home/ilya/newdv/dvijok/tmp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/dvijok/tmp/CMakeFiles /home/ilya/dvijok/tmp//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/newdv/dvijok/tmp/CMakeFiles /home/ilya/newdv/dvijok/tmp//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/dvijok/tmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/newdv/dvijok/tmp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -126,8 +126,21 @@ main: cmake_check_build_system
 
 # fast build rule for target.
 main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named main2
+
+# Build rule for target.
+main2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main2
+.PHONY : main2
+
+# fast build rule for target.
+main2/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main2.dir/build.make src/CMakeFiles/main2.dir/build
+.PHONY : main2/fast
 
 #=============================================================================
 # Target rules for targets named glfw
@@ -168,30 +181,6 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f lib/glad/CMakeFiles/glad.dir/build.make lib/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -204,9 +193,7 @@ help:
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main2"
 .PHONY : help
 
 

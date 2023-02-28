@@ -1,4 +1,4 @@
-# Install script for directory: /home/ilya/dvijok/lib/glad
+# Install script for directory: /home/ilya/newdv/dvijok/lib/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

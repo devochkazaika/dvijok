@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lib/glfw/CMake/glfw3Config.cmake.in"
   "../lib/glfw/CMakeLists.txt"
   "../lib/glfw/src/CMakeLists.txt"
+  "../src/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
@@ -62,6 +63,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/src/glfw3Config.cmake"
   "lib/glfw/src/glfw3ConfigVersion.cmake"
   "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -72,7 +74,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "src/CMakeFiles/main.dir/DependInfo.cmake"
+  "src/CMakeFiles/main2.dir/DependInfo.cmake"
   "lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "lib/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "lib/glad/CMakeFiles/glad.dir/DependInfo.cmake"

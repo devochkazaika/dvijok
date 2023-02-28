@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main2.dir/main2.cpp.o -o main2  ../lib/glfw/src/libglfw3.a ../lib/glad/libglad.a -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl 

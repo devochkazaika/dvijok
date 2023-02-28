@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
 
-C_INCLUDES = -I/home/ilya/dvijok/lib/glfw/include -I/home/ilya/dvijok/lib/glfw/src -I/home/ilya/dvijok/tmp/lib/glfw/src
+C_INCLUDES = -I/home/ilya/newdv/dvijok/lib/glfw/include -I/home/ilya/newdv/dvijok/lib/glfw/src -I/home/ilya/newdv/dvijok/tmp/lib/glfw/src
 
 C_FLAGS = -fPIC -Wall -std=c99
 

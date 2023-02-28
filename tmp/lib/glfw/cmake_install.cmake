@@ -1,4 +1,4 @@
-# Install script for directory: /home/ilya/dvijok/lib/glfw
+# Install script for directory: /home/ilya/newdv/dvijok/lib/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ilya/dvijok/tmp/lib/glfw/src/cmake_install.cmake")
+  include("/home/ilya/newdv/dvijok/tmp/lib/glfw/src/cmake_install.cmake")
 endif()
 

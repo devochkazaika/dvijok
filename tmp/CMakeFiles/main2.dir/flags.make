@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ilya/dvijok/lib/glfw/include -I/home/ilya/dvijok/lib/glad/include
+CXX_INCLUDES = -I/home/ilya/newdv/dvijok/lib/glfw/include -I/home/ilya/newdv/dvijok/lib/glad/include
 
 CXX_FLAGS = 
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilya/dvijok
+CMAKE_SOURCE_DIR = /home/ilya/newdv/dvijok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilya/dvijok/tmp
+CMAKE_BINARY_DIR = /home/ilya/newdv/dvijok/tmp
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include lib/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include lib/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 lib/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ilya/dvijok/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/ilya/dvijok/lib/glfw/src && /usr/bin/cmake -P /home/ilya/dvijok/lib/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ilya/newdv/dvijok/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/ilya/newdv/dvijok/lib/glfw/src && /usr/bin/cmake -P /home/ilya/newdv/dvijok/lib/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: lib/glfw/src/CMakeFiles/update_mappings
 update_mappings: lib/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ lib/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/build
 
 lib/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/ilya/dvijok/tmp/lib/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/ilya/newdv/dvijok/tmp/lib/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 lib/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/ilya/dvijok/tmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilya/dvijok /home/ilya/dvijok/lib/glfw/src /home/ilya/dvijok/tmp /home/ilya/dvijok/tmp/lib/glfw/src /home/ilya/dvijok/tmp/lib/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ilya/newdv/dvijok/tmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilya/newdv/dvijok /home/ilya/newdv/dvijok/lib/glfw/src /home/ilya/newdv/dvijok/tmp /home/ilya/newdv/dvijok/tmp/lib/glfw/src /home/ilya/newdv/dvijok/tmp/lib/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/depend
 
